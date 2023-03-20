@@ -6,39 +6,39 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2019-07-24 19:43+0000\n"
-"Last-Translator: Matjaz Mozetic <matjaz@matmoz.si>\n"
+"PO-Revision-Date: 2019-11-14 16:34+0000\n"
+"Last-Translator: Bole <bole@dajmi5.com>\n"
 "Language-Team: none\n"
-"Language: sl\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 3.7.1\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.8\n"
 
 #. module: project_task_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_chatter_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_report
 msgid "Assigned to"
-msgstr "Zadolžen"
+msgstr "Dodjeljeno"
 
 #. module: project_task_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_chatter_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_report
 msgid "Assigning Date"
-msgstr "Datum dodelitve"
+msgstr "Datum dodjeljivanja"
 
 #. module: project_task_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_chatter_report
 msgid "Chatter"
-msgstr "Klepetalnica"
+msgstr "Razgovor"
 
 #. module: project_task_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_chatter_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_report
 msgid "Deadline"
-msgstr "Rok"
+msgstr "Krajnji rok"
 
 #. module: project_task_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_chatter_report
@@ -50,7 +50,7 @@ msgstr "Opis"
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_chatter_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_report
 msgid "Last Stage Update"
-msgstr "Zadnja posodobitev stopnje"
+msgstr "Zadnje ažuriranje faze"
 
 #. module: project_task_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_chatter_report
@@ -61,12 +61,12 @@ msgstr "Partner"
 #. module: project_task_report
 #: model:ir.actions.report,name:project_task_report.report_project_task_action
 msgid "Print Task"
-msgstr "Natisni opravilo"
+msgstr "Ispisati zadatak"
 
 #. module: project_task_report
 #: model:ir.actions.report,name:project_task_report.report_project_task_chatter_action
 msgid "Print Task and Chatter"
-msgstr "Natisni opravilo in komunikacije"
+msgstr ""
 
 #. module: project_task_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_chatter_report
@@ -84,4 +84,4 @@ msgstr "Oznake"
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_chatter_report
 #: model_terms:ir.ui.view,arch_db:project_task_report.task_report
 msgid "Task:"
-msgstr "Opravilo:"
+msgstr "Zadatak:"
